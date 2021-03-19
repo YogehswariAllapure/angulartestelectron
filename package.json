@@ -6,7 +6,19 @@
   "author": "Yogi",
   "license": "Apache-2.0",
   "main": "main.js",
- 
+  "build": {
+    "appId": "com.example.angulartestelectron",
+    "icon": "src/assets/logo.png",
+    "linux": {
+      "category": "Utility",
+      
+      "packagecategory": "utility",
+      "target": [
+        "deb"
+      ],
+      "synopsis": "The Electron App deveoped for Ubuntu"
+    }
+  },
   "files": [
     "*.js",
     "dist",
